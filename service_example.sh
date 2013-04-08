@@ -3,11 +3,15 @@
 # Startup script for services
 #
 # chkconfig: 2345 85 15
+# description: This is an example script for starting a service when booting the server 
 #
 # processname: myprocessd
 # pidfile: /var/run/myprocessd.pid
 
 # Source function library.
+######################################################################################### 
+# "Be careful of the following command, PATH will be changed in the 'functions' script" #
+#########################################################################################
 . /etc/rc.d/init.d/functions
 
 RETVAL=0
